@@ -4,5 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-glium = "0.33"
-winit = "0.28"
+glium = { version = "0.32.1", default-features = true }
+winit = { version = "0.29.15", default-features = false }
+
+imgui = "0.10"
+imgui-glium-renderer = "0.10"
+imgui-winit-support = "0.10"
